@@ -231,6 +231,52 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Preferred_Contact_Method_test__c</fullName>
+        <description>Choices for contact on the initial customer contact survey</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Which method of contact did the customer choose on their initial survey with their assigned sales rep?</inlineHelpText>
+        <label>Preferred Contact Method - test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Work Phone</fullName>
+                    <default>false</default>
+                    <label>Work Phone</label>
+                </value>
+                <value>
+                    <fullName>Home Phone</fullName>
+                    <default>false</default>
+                    <label>Home Phone</label>
+                </value>
+                <value>
+                    <fullName>Mobile Phone</fullName>
+                    <default>false</default>
+                    <label>Mobile Phone</label>
+                </value>
+                <value>
+                    <fullName>Work Email</fullName>
+                    <default>false</default>
+                    <label>Work Email</label>
+                </value>
+                <value>
+                    <fullName>Personal Email</fullName>
+                    <default>false</default>
+                    <label>Personal Email</label>
+                </value>
+                <value>
+                    <fullName>No Preference</fullName>
+                    <default>false</default>
+                    <label>No Preference</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
