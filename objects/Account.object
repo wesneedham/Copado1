@@ -360,6 +360,7 @@
     </fields>
     <fields>
         <fullName>Wes1__c</fullName>
+        <description>This is Wes 1 account</description>
         <externalId>false</externalId>
         <label>Wes1</label>
         <length>10</length>
@@ -370,6 +371,7 @@
     </fields>
     <fields>
         <fullName>Wes2__c</fullName>
+        <description>This is the Wes 2 account</description>
         <externalId>false</externalId>
         <label>Wes2</label>
         <length>10</length>
